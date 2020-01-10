@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PassportScan</string>
+    <string name="hello_world">Hello world!</string>
+    
+   
+    <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">OK</string>
+    
+    <!-- message for the dialog showing the error of camera hardware -->
+    <string name="cannot_connect_camera">Can\'t connect to the camera.</string>
+
+    <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+    <string name="camera_disabled">Camera has been disabled because of security policies.</string>
+    
+    <string name="basic_setting">"Basic"</string>
+    <string name="advance_setting">"More..."</string>
+    <string name="summary_notify_sound_preference">"Play sound when car number is recognized."</string>
+    <string name="title_notify_sound_preference">"Notification sound"</string>
+    
+    <string name="mode_title_list_preference">Choose mode</string>
+    <string name="mode_list_preference">NPR mode</string>
+    <string name="mode_summary_list_preference">Set mode for NPR.</string>
+    <string-array name="mode_entries_list_preference">
+        <item>Preview mode</item>
+        <item>Capture mode</item>
+    </string-array>
+    <string-array name="mode_entryvalues_list_preference">
+        <item>preview</item>
+        <item>capture</item>
+    </string-array>
+    
+    <string name="picsize_title_list_preference">Choose picture size</string>
+    <string name="picsize_list_preference">Picture size</string>
+    <string name="picsize_summary_list_preference">Set picture size for capture.</string>
+    
+    <string name="capture_mode">capture mode</string>
+    <string name="preview_mode">preview mode</string>
+    
+    <string name="tips">"Hold card here.\nIt will scan actomatically."</string>
+    <string name="card_details">Passport Info</string>
+    <string name="crash_toast_text">Crash Report</string>
+</resources>
